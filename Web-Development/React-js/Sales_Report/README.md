@@ -12,3 +12,14 @@ This project is a Sales Report web application developed using React.js. It enab
 - **React.js** – For building the UI and managing component state.
 - **Chart.js** – For rendering interactive charts.
 - **CSS** – For styling and layout.
+
+## 📈 Usage
+-Open the app in your browser.
+
+- Fill out the sales form with Name, Region, Date, and Amount.
+
+- Submit the form to add the entry to the table.
+
+- Navigate to the report page to view the table and charts.
+
+- Analyze trends using the bar and pie charts.

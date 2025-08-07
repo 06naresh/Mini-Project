@@ -14,7 +14,7 @@ This project is a Sales Report web application developed using React.js. It enab
 - **CSS** – For styling and layout.
 
 ## 📈 Usage
--Open the app in your browser.
+- Open the app in your browser.
 
 - Fill out the sales form with Name, Region, Date, and Amount.
 

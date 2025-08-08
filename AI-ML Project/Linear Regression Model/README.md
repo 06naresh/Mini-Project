@@ -18,6 +18,6 @@ A Linear Regression model that predicts startup profits with scaled continuous f
 
 - Handles both categorical and numerical data
 
-▶ Usage:
+**▶ Usage:**
 
 python linear_regression_model.py

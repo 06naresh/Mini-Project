@@ -18,6 +18,6 @@ A regression model predicting startup profits based on R&D spend, administration
 
 - Side-by-side display of predicted vs. actual results
 
-▶ Usage:
+**▶ Usage:**
 
 python multiple_linear_regression.py

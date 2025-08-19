@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Generate</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script defer src="otp.js"></script>
+</head>
+<body>
+    <div class="container step1">
+        <h2>OTP Verification</h2>
+        <div class="form-group">
+            <input type="email" id="emailAddress" placeholder="Email Address">
+
+        </div>
+        <button id="nextButton">Next &rarr;</button>
+    </div>
+
+    <div class="container step2" style="display: none;">
+        <h2>Enter the One-Time Password</h2>
+        <div class="otp-form">
+            <p>Enter the 4-digit code we sent you via email to continue</p>
+            <div class="otp-group">
+                <input type="number" class="otp-input" />
+                <input type="number" class="otp-input" />
+                <input type="number" class="otp-input" />
+                <input type="number" class="otp-input" />
+            </div>
+        </div>
+        <button id="verifyButton" class="disable">Verify &rarr;</button>
+    </div>
+
+    <div class="container step3" style="display: none;">
+        <h2>Congratulations</h2>
+        <img src="th.png" width="80" height="80">
+        <p><b>DONE</b></p>
+    </div>
+</body>
+</html>
